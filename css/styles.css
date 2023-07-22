@@ -1,0 +1,18 @@
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.logo {
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo-span {
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
