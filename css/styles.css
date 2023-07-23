@@ -1,18 +1,114 @@
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
-  font-family: 'Raleway', sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
 .logo {
   text-transform: uppercase;
   color: #2e2f42;
+  text-decoration: none;
+  font-family: 'Railway', sans-serif;
+  font-size: 18px;
 }
 
 .logo-span {
   color: #4d5ae5;
   text-transform: uppercase;
+}
+
+.link:hover,
+.link:focus,
+.mail:hover,
+.mail:focus {
+  color: #404bbf;
+}
+
+.tel,
+.link,
+.mail {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.mail,
+.tel {
+  color: #434455;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Railway', sans-serif;
+  font-size: 18px;
+}
+
+.paragraph-footer {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+.title {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #404bbf;
+}
+
+.header2 {
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.header3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.header2,
+.header3 {
+  color: #2e2f42;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+
+.img {
+  border: 1px solid #e7e9fc;
+}
+
+.our-team-section {
+  background-color: #f4f4fd;
 }
