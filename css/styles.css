@@ -112,3 +112,16 @@ body {
 .our-team-section {
   background-color: #f4f4fd;
 }
+
+.button-portfolio {
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  font-size: 16px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.button-portfolio:hover {
+  background-color: #404bbf;
+  color: #ffffff;
+}
