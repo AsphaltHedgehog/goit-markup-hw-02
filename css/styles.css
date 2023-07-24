@@ -68,10 +68,10 @@ body {
   letter-spacing: 0.02em;
 }
 
-.hero {
+.section-hero {
   background-color: #2e2f42;
 }
-.hero .title {
+.section-hero .section-title {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
@@ -80,7 +80,7 @@ body {
   text-align: center;
 }
 
-.hero .button-order {
+.section-hero .button-order {
   background-color: #4d5ae5;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -91,9 +91,63 @@ body {
   cursor: pointer;
 }
 
-.hero .button-order:hover,
+.section-hero .button-order:hover,
 .button-order:focus {
   background-color: #404bbf;
+}
+
+.principle-list .section-title {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.principle-list .paragraph {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-design-example .section-title {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section-our-team {
+  background-color: #f4f4fd;
+}
+
+.section-our-team .section-title {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.section-our-team .title {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-our-team .paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer {
@@ -105,7 +159,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
