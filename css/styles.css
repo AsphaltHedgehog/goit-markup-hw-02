@@ -16,7 +16,7 @@ body {
 
 .header .logo {
   color: #4d5ae5;
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -36,7 +36,7 @@ body {
   list-style: none;
 }
 
-.header-nav-list {
+.header-nav-list .link {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -62,6 +62,32 @@ body {
 
 .header-address-list .text {
   color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo-span {
+  color: #f4f4fd;
+}
+
+.footer .paragraph {
+  color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
