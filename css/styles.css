@@ -96,7 +96,7 @@ body {
   background-color: #404bbf;
 }
 
-.principle-list .section-title {
+.principle-list .title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -153,6 +153,41 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.button-portfolio {
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.portfolio-examples .title {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.portfolio-examples .paragraph {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .footer {
